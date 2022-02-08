@@ -18,7 +18,7 @@
   <link href="./style.css" rel="stylesheet" />
 
   <!--JS Files-->
-  <script src="./js/addButtons.js"></script>
+ 
 
 </head>
 
@@ -33,15 +33,13 @@
     <a-entity camera></a-entity>
 
     <a-assets>
-      <a-asset-item id="pizza-model" src="./assets/pizza/scene.gltf"></a-asset-item>
+      <a-asset-item ></a-asset-item>
     </a-assets>
 
     <!--Pattern Marker-->
-    <a-marker id="pizza-marker" type="pattern" url="assets/dish-markers/pattern-pizza.patt" cursor="rayOrigin: mouse">
+    <a-marker  cursor="rayOrigin: mouse">
       
-      <a-entity id="pizza-3D-model" position="-1 0 0" scale="0.05 0.05 0.05" 
-        gltf-model="#pizza-model"
-        gesture-handler>
+      <a-entity >
       </a-entity>
 
 
@@ -49,12 +47,12 @@
       <a-plane position="0 0 0" width="1.5" height="1.5" rotation="-90 0 0">
         <a-plane position="0 0.89 0.02" width="1.49" height="0.3" rotation="0 0 0" color="#F0C30F">
           <a-entity position="0 0 0.1" rotation="0 0 0"
-            text="font:monoid;value:PIZZA MARGHERITA;color:black;width: 1.8;height:1;align:center;"></a-entity>
+            text="font:monoid;value:           ;color:black;width: 1.8;height:1;align:center;"></a-entity>
         </a-plane>
 
         <a-entity position="0 0 0.1" rotation="0 0 0"
           text="color: black; align: center; width: 2; font: monoid;
-               value: Tomato sauce\n\nMozzarella cheese\n\nParmesan cheese (optional)\n\nFresh Basil\n\nOlive oil\n\nBlack pepper (optional)">
+               value:   ">
         </a-entity>
       </a-plane>
 
